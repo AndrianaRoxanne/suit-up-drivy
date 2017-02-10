@@ -1,0 +1,93 @@
+body
+{
+
+   background:url('fond.jpg') ;
+   background-size: 100%;
+    
+}
+
+h1
+{
+
+position:fixed;
+right: 41%;
+bottom: 78%;
+ color: white;
+  font-size: 64px;
+  font-family: Georgia;
+  text-shadow: 2px 2px 2px black
+ 
+}
+
+h2
+{
+position:fixed;
+right: 42%;
+bottom: 80%;
+  color: white;
+   font-size: 12px;
+   font-style: italic;
+  font-family: Georgia;
+
+}
+
+#shape
+{
+	  background: #E3E3E3;
+    right: 4%;
+    width:400px;
+    padding:25px;
+    border: 3px  inset rgb(1,113,240);
+    border-radius:50px;
+    opacity: 0.6;
+
+}
+
+div#car
+{
+    line-height: 15px ;
+    font-family: Georgia;
+    margin-right: 35px;
+
+
+}
+div#rental
+{
+  font-family:  Georgia;
+
+}
+
+
+button:hover#compute{
+  font-family: Georgia;
+  position:center;
+  background-color:#32CD32;
+color: white;}
+
+h3
+{
+position:fixed;
+  color: white;
+   font-size: 12px;
+   font-style: italic;
+  font-family: Georgia;
+  bottom: 69%;
+  right: 85%;
+
+}
+
+
+
+.img
+{
+   /*position:center;
+    right: 4%;
+    width:400px;
+    padding:25px;
+   margin-right: center;
+    margin-left: center;*/
+
+    position: center;
+    opacity: 0.9;
+}
+

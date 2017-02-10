@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
+      <link rel="stylesheet" href="stylesheet.css" />
     <title>CSS/HTML Workshop with Drivy</title>
+
+  
   </head>
+
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <body>
+
+      <h1> D R I V Y </h1>
+      <h2> Everyday, every season </h2>
+  
+     <div id="shape">
+
     <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
@@ -13,10 +26,11 @@
       <input class="begin" type="date" placeholder="Rental begin date"/>
       <input class="end" type="date" placeholder="Rental end date"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <font size = 2> Deductible option: </font>  <input class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
+
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
         <div class="actor">
@@ -29,5 +43,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script src="drivy.js"></script>
     <script src="index.js"></script>
+
+      </div>
+
+
+      <h3> Notre sélection de voitures: </h3>
+      
+     <!-- <li>
+          <a href="#">
+          <img src="306.jepg" alt="" />
+          <strong>306</strong>
+          </a>
+     </li> -->
+
+
+<!-- <b href="http://www.drivy.com"><img src"porsche.jpg" border="0" width="15" height="30"></b>
+<a href="http://www.drivy.com"><img src"rover.jpg" border="0" width="15" height="30" ></a>
+-->
+<div id= "img">
+          <li>
+          <img src="porsche.jpg" id="porsche" />
+          <img src="rover.jpg" id="rover" />
+          </li>
+</div>
+
   </body>
 </html>
